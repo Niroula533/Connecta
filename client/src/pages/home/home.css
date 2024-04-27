@@ -1,0 +1,10 @@
+.homeContainer{
+    display: flex;
+    width: 100%;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.homeContainer.shifted {
+    margin-left: 200px;
+    /* transform: translateX(250px); Replace 250px with the width of your sidebar */
+  }
